@@ -1,0 +1,100 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 790px;
+  height: 697px;
+  position: absolute;
+  padding: 0px 0px 0px 85px;
+  z-index: -1;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 78px;
+  margin: 0;
+  text-align: center;
+  color: #515076;
+  padding: 220px 0px 110px 0px;
+}
+
+.cards-block {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 45px;
+  column-gap: 45px;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  width: 290px;
+  background-color: #F7F7FA;
+  padding: 25px;
+  
+}
+
+.product-image {
+  width: 290px;
+  height: 245px;
+  padding: 0;
+}
+
+
+.title-card {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  margin: 0;
+  color: #515076;
+  padding-top: 5px;
+}
+
+.main-text {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.head-card    {
+  font-size: 12px;
+  line-height: 24px;
+  color: #A5A3B9;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 30px;
+} 
+
+
+.compound {
+  padding-top: 15px;
+}
+
+.sub-compound {
+  padding-left: 15px;
+}
+.sub-compound li{
+  padding-top: 5px;
+}
+
+.price {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #515076;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-value {
+  font-weight: 400;
+}
