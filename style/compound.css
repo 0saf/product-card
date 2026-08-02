@@ -1,0 +1,18 @@
+.compound {
+
+}
+
+.compound span {
+  display: block;
+}
+
+.compound__name {
+    margin-bottom: 5px;
+}
+
+.compound__list li {
+  margin-bottom: 5px;
+}
+.compound__list {
+  margin-bottom: 25px;
+}
